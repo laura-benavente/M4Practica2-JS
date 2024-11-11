@@ -1,0 +1,30 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: peachpuff;
+    color: rgba(147, 112, 219, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    background-color: rgba(147, 112, 219, 0.5);
+    color: rgba(46, 8, 48, 0.8);
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgba(147, 112, 219, 0.7);
+}
+
